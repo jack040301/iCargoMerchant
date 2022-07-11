@@ -18,7 +18,7 @@
 import HelpHeader from './HelpHeader.vue';
 import HelpCenter from './HelpCenter.vue';
 import HelpCategories from './HelpCategories.vue';
-import NavbarTop from '../NavbarTop.vue';
+import NavbarTop from '../Navbar/NavbarTop.vue';
 
 export default {
   name: 'App',

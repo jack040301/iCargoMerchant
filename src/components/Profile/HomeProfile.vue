@@ -23,7 +23,7 @@
 import PicUser from './PicUser.vue';
 import UpdateUserComp from './UpdateUserComp.vue';
 import TitleHeader from './TitleHeader.vue';
-import NavbarTop from '../NavbarTop.vue'
+import NavbarTop from '../Navbar/NavbarTop.vue'
 
 export default {
   name: 'App',
@@ -45,8 +45,11 @@ export default {
 .body-content{
     padding-top: 3rem;
     padding-bottom: 3rem;
-    height: 100%;
     background: linear-gradient(to right, white, yellow);
+}
+.sample{
+  height: 100vh;
+  background: linear-gradient(to right, white, yellow);
 }
 .square-box{
     background-color: white;

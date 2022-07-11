@@ -1,5 +1,5 @@
 <template>
-    <div class="router-view">
+    <div id="app" class="router-view">
       <router-view></router-view>
     </div>
 </template>
@@ -29,6 +29,6 @@ export default {
 }
 .router-view{
   height: 100vh;
-  background: linear-gradient(to right, white, yellow);
+  background-color: white;
 }
 </style>
